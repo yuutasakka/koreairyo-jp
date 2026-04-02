@@ -4,6 +4,7 @@ body {
 
 nav .gnb {
   text-align: center;
+  position: relative;
 }
 
 nav .gnb > ul {
@@ -14,7 +15,7 @@ nav .gnb > ul {
 }
 
 nav .gnb .depth1-list {
-  position: relative;
+  position: static;
   flex: 1 1 auto;
 }
 
@@ -39,10 +40,11 @@ nav .gnb .depth1-list .depth2-wrap {
   background-color: #fff;
   display: none;
   position: absolute;
-  top: 100%;
   left: 0;
+  right: 0;
   width: 100%;
   z-index: 40;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 nav .gnb .depth1-list:hover .depth2-wrap {
