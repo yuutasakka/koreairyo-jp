@@ -36,7 +36,7 @@ nav .gnb .depth1-list > a.text-highlight {
 
 nav .gnb .depth1-list .depth2-wrap {
   border: 0;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #fff;
   display: none;
   position: absolute;
   top: 100%;
