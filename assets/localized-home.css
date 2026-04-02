@@ -89,6 +89,11 @@ nav .gnb .depth1-list .depth2-wrap .sub-menu li a span {
 nav .gnb .depth1-list .depth2-wrap .sub-menu-banner {
   padding-top: 3px;
   width: 354px;
+  display: none;
+}
+
+nav .gnb .depth1-list .depth2-wrap .sub-menu {
+  width: 100%;
 }
 
 .lang-chip {
